@@ -1,0 +1,8 @@
+../Src/main.c:64:13:MPU_Config	24	static
+../Src/main.c:102:13:CPU_CACHE_Enable	24	static,ignoring_inline_asm
+../Src/main.c:110:13:LED_Blink	16	static
+../Src/main.c:122:13:RTC_CalendarShow	16	static
+../Src/main.c:138:5:main	8	static
+../Src/main.c:247:6:SystemClock_Config	120	static
+../Src/main.c:315:6:PeriphCommonClock_Config	200	static
+../Src/main.c:348:6:Error_Handler	8	static

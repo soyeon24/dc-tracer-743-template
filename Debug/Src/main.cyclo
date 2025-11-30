@@ -1,0 +1,8 @@
+../Src/main.c:64:13:MPU_Config	1
+../Src/main.c:102:13:CPU_CACHE_Enable	5
+../Src/main.c:110:13:LED_Blink	1
+../Src/main.c:122:13:RTC_CalendarShow	1
+../Src/main.c:138:5:main	1
+../Src/main.c:247:6:SystemClock_Config	4
+../Src/main.c:315:6:PeriphCommonClock_Config	2
+../Src/main.c:348:6:Error_Handler	1
