@@ -47,16 +47,11 @@ main/Src/LSM6DS3TR.o: ../main/Src/LSM6DS3TR.c \
  C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/lcd.h \
  C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/st7735.h \
  C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/st7735_reg.h \
- C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/../../../MDK-ARM/Inc/main.h \
  C:/school/zetin/dc_template/dc-tracer-743/main/Inc/sensor.h \
- C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/lptim.h \
- C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/main.h \
- C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/main.h \
+ ../Inc/lptim.h ../Inc/main.h \
  C:/school/zetin/dc_template/dc-tracer-743/main/Inc/motor.h \
  C:/school/zetin/dc_template/dc-tracer-743/main/Inc/drive.h ../Inc/spi.h \
- ../Inc/main.h \
- C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/custom_switch.h \
- C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/custom_delay.h
+ ../Inc/custom_switch.h ../Inc/custom_delay.h
 C:/school/zetin/dc_template/dc-tracer-743/main/Inc/LSM6DS3TR.h:
 C:/school/zetin/dc_template/dc-tracer-743/main/Inc/init.h:
 ../Inc/main.h:
@@ -106,14 +101,11 @@ C:/school/zetin/dc_template/dc-tracer-743/main/Inc/LSM6DS3TR.h:
 C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/lcd.h:
 C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/st7735.h:
 C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/st7735_reg.h:
-C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/../../../MDK-ARM/Inc/main.h:
 C:/school/zetin/dc_template/dc-tracer-743/main/Inc/sensor.h:
-C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/lptim.h:
-C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/main.h:
-C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/main.h:
+../Inc/lptim.h:
+../Inc/main.h:
 C:/school/zetin/dc_template/dc-tracer-743/main/Inc/motor.h:
 C:/school/zetin/dc_template/dc-tracer-743/main/Inc/drive.h:
 ../Inc/spi.h:
-../Inc/main.h:
-C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/custom_switch.h:
-C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/custom_delay.h:
+../Inc/custom_switch.h:
+../Inc/custom_delay.h:

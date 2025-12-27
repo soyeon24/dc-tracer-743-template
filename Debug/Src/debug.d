@@ -1,5 +1,4 @@
-Src/debug.o: ../Src/debug.c ../Src/../MDK-ARM/Inc/debug.h \
- ../Src/../MDK-ARM/Inc/main.h \
+Src/debug.o: ../Src/debug.c ../Inc/debug.h ../Inc/main.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Inc/stm32h7xx_hal_conf.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -42,8 +41,8 @@ Src/debug.o: ../Src/debug.c ../Src/../MDK-ARM/Inc/debug.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
-../Src/../MDK-ARM/Inc/debug.h:
-../Src/../MDK-ARM/Inc/main.h:
+../Inc/debug.h:
+../Inc/main.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Inc/stm32h7xx_hal_conf.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:

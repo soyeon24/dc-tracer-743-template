@@ -10,8 +10,8 @@
 
 #include <stdint.h>
 
-#include "../../MDK-ARM/Inc/lptim.h"
-#include "../../MDK-ARM/Inc/main.h"
+#include "lptim.h"
+#include "main.h"
 void TIM6_Sensor_IRQ(void);
 void Sensor_Test_Raw(void);
 void Sensor_Test_Menu(void);

@@ -20,7 +20,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #include "stm32h7xx_hal.h"
-#include "../../MDK-ARM/Inc/custom_switch.h"
+#include "custom_switch.h"
 
 
 #define LSM6DS3TR_C_WHO_AM_I_REG    0x0F

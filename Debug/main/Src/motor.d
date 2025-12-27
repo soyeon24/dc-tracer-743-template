@@ -1,6 +1,5 @@
 main/Src/motor.o: ../main/Src/motor.c \
- C:/school/zetin/dc_template/dc-tracer-743/main/Inc/motor.h \
- C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/main.h \
+ C:/school/zetin/dc_template/dc-tracer-743/main/Inc/motor.h ../Inc/main.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Inc/stm32h7xx_hal_conf.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -45,29 +44,21 @@ main/Src/motor.o: ../main/Src/motor.c \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  C:/school/zetin/dc_template/dc-tracer-743/main/Inc/drive.h \
  C:/school/zetin/dc_template/dc-tracer-743/main/Inc/sensor.h \
- C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/lptim.h \
- C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/main.h \
- C:/school/zetin/dc_template/dc-tracer-743/main/Inc/init.h ../Inc/main.h \
+ ../Inc/lptim.h ../Inc/main.h \
+ C:/school/zetin/dc_template/dc-tracer-743/main/Inc/init.h \
  C:/school/zetin/dc_template/dc-tracer-743/main/Inc/LSM6DS3TR.h \
  C:/school/zetin/dc_template/dc-tracer-743/main/Inc/init.h \
  C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/lcd.h \
  C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/st7735.h \
  C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/st7735_reg.h \
- C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/../../../MDK-ARM/Inc/main.h \
  C:/school/zetin/dc_template/dc-tracer-743/main/Inc/sensor.h \
  C:/school/zetin/dc_template/dc-tracer-743/main/Inc/motor.h \
  C:/school/zetin/dc_template/dc-tracer-743/main/Inc/drive.h ../Inc/spi.h \
- ../Inc/main.h \
- C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/custom_switch.h \
- C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/custom_delay.h \
- C:/school/zetin/dc_template/dc-tracer-743/Src/dwt_delay.h \
- ../main/Src/../../MDK-ARM/Inc/custom_switch.h \
- ../main/Src/../../MDK-ARM/Inc/gpio.h \
- ../main/Src/../../MDK-ARM/Inc/main.h \
- ../main/Src/../../MDK-ARM/Inc/lptim.h \
- ../main/Src/../../MDK-ARM/Inc/tim.h
+ ../Inc/custom_switch.h ../Inc/custom_delay.h \
+ C:/school/zetin/dc_template/dc-tracer-743/Src/dwt_delay.h ../Inc/gpio.h \
+ ../Inc/tim.h
 C:/school/zetin/dc_template/dc-tracer-743/main/Inc/motor.h:
-C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/main.h:
+../Inc/main.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Inc/stm32h7xx_hal_conf.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -112,26 +103,20 @@ C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/main.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 C:/school/zetin/dc_template/dc-tracer-743/main/Inc/drive.h:
 C:/school/zetin/dc_template/dc-tracer-743/main/Inc/sensor.h:
-C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/lptim.h:
-C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/main.h:
-C:/school/zetin/dc_template/dc-tracer-743/main/Inc/init.h:
+../Inc/lptim.h:
 ../Inc/main.h:
+C:/school/zetin/dc_template/dc-tracer-743/main/Inc/init.h:
 C:/school/zetin/dc_template/dc-tracer-743/main/Inc/LSM6DS3TR.h:
 C:/school/zetin/dc_template/dc-tracer-743/main/Inc/init.h:
 C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/lcd.h:
 C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/st7735.h:
 C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/st7735_reg.h:
-C:/school/zetin/dc_template/dc-tracer-743/Drivers/BSP/ST7735/../../../MDK-ARM/Inc/main.h:
 C:/school/zetin/dc_template/dc-tracer-743/main/Inc/sensor.h:
 C:/school/zetin/dc_template/dc-tracer-743/main/Inc/motor.h:
 C:/school/zetin/dc_template/dc-tracer-743/main/Inc/drive.h:
 ../Inc/spi.h:
-../Inc/main.h:
-C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/custom_switch.h:
-C:/school/zetin/dc_template/dc-tracer-743/main/Inc/../../MDK-ARM/Inc/custom_delay.h:
+../Inc/custom_switch.h:
+../Inc/custom_delay.h:
 C:/school/zetin/dc_template/dc-tracer-743/Src/dwt_delay.h:
-../main/Src/../../MDK-ARM/Inc/custom_switch.h:
-../main/Src/../../MDK-ARM/Inc/gpio.h:
-../main/Src/../../MDK-ARM/Inc/main.h:
-../main/Src/../../MDK-ARM/Inc/lptim.h:
-../main/Src/../../MDK-ARM/Inc/tim.h:
+../Inc/gpio.h:
+../Inc/tim.h:

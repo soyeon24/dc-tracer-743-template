@@ -3,8 +3,8 @@
 #include <stdarg.h>
 #include <stddef.h>
 #include <stdio.h>
-#include "../../../MDK-ARM/Inc/spi.h"
-#include "../../../MDK-ARM/Inc/tim.h"
+#include "spi.h"
+#include "tim.h"
 
 #define TFT96
 

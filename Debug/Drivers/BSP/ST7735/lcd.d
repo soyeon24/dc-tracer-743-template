@@ -1,7 +1,6 @@
 Drivers/BSP/ST7735/lcd.o: ../Drivers/BSP/ST7735/lcd.c \
  ../Drivers/BSP/ST7735/lcd.h ../Drivers/BSP/ST7735/st7735.h \
- ../Drivers/BSP/ST7735/st7735_reg.h \
- ../Drivers/BSP/ST7735/../../../MDK-ARM/Inc/main.h \
+ ../Drivers/BSP/ST7735/st7735_reg.h ../Inc/main.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Inc/stm32h7xx_hal_conf.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -44,14 +43,11 @@ Drivers/BSP/ST7735/lcd.o: ../Drivers/BSP/ST7735/lcd.c \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- ../Drivers/BSP/ST7735/font.h \
- ../Drivers/BSP/ST7735/../../../MDK-ARM/Inc/spi.h \
- ../Drivers/BSP/ST7735/../../../MDK-ARM/Inc/main.h \
- ../Drivers/BSP/ST7735/../../../MDK-ARM/Inc/tim.h
+ ../Drivers/BSP/ST7735/font.h ../Inc/spi.h ../Inc/main.h ../Inc/tim.h
 ../Drivers/BSP/ST7735/lcd.h:
 ../Drivers/BSP/ST7735/st7735.h:
 ../Drivers/BSP/ST7735/st7735_reg.h:
-../Drivers/BSP/ST7735/../../../MDK-ARM/Inc/main.h:
+../Inc/main.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Inc/stm32h7xx_hal_conf.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -95,6 +91,6 @@ Drivers/BSP/ST7735/lcd.o: ../Drivers/BSP/ST7735/lcd.c \
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 ../Drivers/BSP/ST7735/font.h:
-../Drivers/BSP/ST7735/../../../MDK-ARM/Inc/spi.h:
-../Drivers/BSP/ST7735/../../../MDK-ARM/Inc/main.h:
-../Drivers/BSP/ST7735/../../../MDK-ARM/Inc/tim.h:
+../Inc/spi.h:
+../Inc/main.h:
+../Inc/tim.h:

@@ -1,5 +1,4 @@
-Src/custom_switch.o: ../Src/custom_switch.c \
- ../Src/../MDK-ARM/Inc/custom_switch.h \
+Src/custom_switch.o: ../Src/custom_switch.c ../Inc/custom_switch.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Inc/stm32h7xx_hal_conf.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -42,8 +41,8 @@ Src/custom_switch.o: ../Src/custom_switch.c \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- ../Src/../MDK-ARM/Inc/custom_delay.h
-../Src/../MDK-ARM/Inc/custom_switch.h:
+ ../Inc/custom_delay.h
+../Inc/custom_switch.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Inc/stm32h7xx_hal_conf.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -86,4 +85,4 @@ Src/custom_switch.o: ../Src/custom_switch.c \
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
-../Src/../MDK-ARM/Inc/custom_delay.h:
+../Inc/custom_delay.h:

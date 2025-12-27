@@ -4,7 +4,7 @@
 #include "st7735.h"
 #include <stdio.h>
 #include <stdarg.h>
-#include "../../../MDK-ARM/Inc/main.h"
+#include "main.h"
 
 #define WHITE         	 0xFFFF
 #define BLACK         	 0x0000	  

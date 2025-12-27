@@ -1,4 +1,4 @@
-#include "../MDK-ARM/Inc/custom_flash.h"
+#include "custom_flash.h"
 
 #include "stm32h7xx_hal.h"
 

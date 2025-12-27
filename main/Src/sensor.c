@@ -11,11 +11,11 @@
 #include "lcd.h"
 #include "motor.h"
 #include "drive.h"
-#include "../../MDK-ARM/Inc/adc.h"
-#include "../../MDK-ARM/Inc/custom_switch.h"
-#include "../../MDK-ARM/Inc/lptim.h"
-#include "../../MDK-ARM/Inc/main.h"
-#include "../../MDK-ARM/Inc/tim.h"
+#include "adc.h"
+#include "custom_switch.h"
+#include "lptim.h"
+#include "main.h"
+#include "tim.h"
 
 
 #define ADC_RESOLUTION_MAX      65535.0f // 16-bit ADC Max Value

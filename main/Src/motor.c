@@ -14,10 +14,10 @@
 #include "lcd.h"
 #include <stdbool.h>
 #include "dwt_delay.h"
-#include "../../MDK-ARM/Inc/custom_switch.h"
-#include "../../MDK-ARM/Inc/gpio.h"
-#include "../../MDK-ARM/Inc/lptim.h"
-#include "../../MDK-ARM/Inc/tim.h"
+#include "custom_switch.h"
+#include "gpio.h"
+#include "lptim.h"
+#include "tim.h"
 
 // =============================================================================
 // [TODO: 하드웨어 파라미터 확인 및 수정]

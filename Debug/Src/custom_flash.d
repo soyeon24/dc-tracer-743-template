@@ -1,5 +1,4 @@
-Src/custom_flash.o: ../Src/custom_flash.c \
- ../Src/../MDK-ARM/Inc/custom_flash.h \
+Src/custom_flash.o: ../Src/custom_flash.c ../Inc/custom_flash.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Inc/stm32h7xx_hal_conf.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -42,7 +41,7 @@ Src/custom_flash.o: ../Src/custom_flash.c \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_spi_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
-../Src/../MDK-ARM/Inc/custom_flash.h:
+../Inc/custom_flash.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Inc/stm32h7xx_hal_conf.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:

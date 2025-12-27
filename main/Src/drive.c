@@ -13,10 +13,9 @@
 #include "drive.h"
 #include "stdbool.h"
 #include "math.h"
-
-#include "../../MDK-ARM/Inc/custom_switch.h"
-#include "../../MDK-ARM/Inc/lptim.h"
-#include "../../MDK-ARM/Inc/tim.h"
+#include "custom_switch.h"
+#include "lptim.h"
+#include "tim.h"
 
 
 // 센서 가중치 테이블

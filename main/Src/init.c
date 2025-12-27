@@ -12,10 +12,9 @@
 #include "motor.h"
 #include "drive.h"
 #include "LSM6DS3TR.h"
-
-#include "../../MDK-ARM/Inc/custom_switch.h"
-#include "../../MDK-ARM/Inc/lptim.h"
-#include "../../MDK-ARM/Inc/tim.h"
+#include "custom_switch.h"
+#include "lptim.h"
+#include "tim.h"
 
 #define MAIN_MENU_CNT 8
 

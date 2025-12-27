@@ -10,7 +10,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "../../MDK-ARM/Inc/main.h"
+#include "main.h"
 void Drive_First(void);
 void Drive_Second(void);
 void Drive_Third(void);

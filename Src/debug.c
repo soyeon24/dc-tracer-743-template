@@ -18,7 +18,7 @@
   */
 
 /* Includes ------------------------------------------------------------------*/
-#include "../MDK-ARM/Inc/debug.h"
+#include "debug.h"
 
 /* USER CODE BEGIN 0 */
 
